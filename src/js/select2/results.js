@@ -276,10 +276,6 @@ define([
       }
 
       self.setClasses();
-
-      if (self.options.get('scrollAfterSelect')) {
-        self.highlightFirstItem();
-      }
     });
 
     container.on('unselect', function () {
@@ -288,10 +284,6 @@ define([
       }
 
       self.setClasses();
-
-      if (self.options.get('scrollAfterSelect')) {
-        self.highlightFirstItem();
-      }
     });
 
     container.on('open', function () {
